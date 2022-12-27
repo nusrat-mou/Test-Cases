@@ -1,0 +1,16 @@
+﻿#SL No,Module,Type of Testing,Features,Test Case Description,Test Data,Test Steps,Expected Result,Actual Result,Bug Screen Shot,Dev Comments,Final Status
+TC-001,Registration Form,Functional Testing,Register for a new account,Check whether the user can go to the desired page through the URL,https://www.made-in-china.com/?acc=8642081837&cpn=15294654437-129540669053&tgt=kwd-86376691&net=g&dev=c-&gid=Cj0KCQiAnNacBhDvARIsABnDa68O-KWuS-Dwhi18KtQXCNxOkej5pikrhdo6cOaXwFuZAtcSFcke2YwaAht8EALw_wcB&kwd=made%20in%20china&mtp=p&gclid=Cj0KCQiAnNacBhDvARIsABnDa68O-KWuS-Dwhi18KtQXCNxOkej5pikrhdo6cOaXwFuZAtcSFcke2YwaAht8EALw_wcB,1. Go to the URL,Redirect to the website,Redirect to the website,,,Passed
+,,,,Verify the Join Free Button,Tapped Join Free,2. Tap on the Join Free Button,Redirect to the sign up page,Redirect to the verification page,,,Failed
+,,,,Verify the email address,nmou@gmail.com,3. Provide your email address,Moves on to the next page,Moves on to the next page,,,Passed
+,,,,Verify the terms and condition field,unchecked,4. Agree to the terms and conditions,Please read the terms and agree,Please read the terms and agree,,,Passed
+,,,,Verify the password field,123456,5. Fill up password and confirm password with invalid password,Password must contain numeric and special characters,Password must contain numeric and special character,,,Passed
+,,,,Verify the selected country,Bangladesh,6. Select Country,Selected Country Shown,Selected Country Shown,,,Passed
+,,,,Verify the selected name,Nusrat Jahan Mou,7. Enter Full name,Full name shown,Full name shown,,,Passed
+,,,,Verify the selected company name,Shahara,8. Enter Company Name,Such company name does not exist. Please enter a valid company name,Takes the company name successfully,,,Failed
+,,,,Verify the selected phone no,111111,9. Enter Phone No,Invalid phone number. Please try again,Takes the phone number successfully,,,Failed
+,,,,Verify the selected next button,clicked,10. Click on Next Button,Redirect to the next page,Redirect to the next page,,,Passed
+,,,,Verify the Business Type ,unselected,11. Select Business Type,Please select Business Type,Please select Business Type,,,Passed
+,,,,Verify Annual Purchase Volume,unselected,12. Select Annual Purchase Volume,Please select Annual Purchase Volume,Please select Annual Purchase Volume,,,Passed
+,,,,Verify Purchasing Frequency,unselected,13. Select Purchasing Frequency,Please select Purchasing Frequency,Please select Purchasing Frequency,,,Passed
+,,,,Verify Sourcing Product,empty,14. Write one word/phrase only. Click 'Add' for more,Please enter your sourcing product,Please enter your sourcing product,,,Passed
+,,,,Verify Submit Button,Clicked,15.User registered successfully,User registered successfully,User registered successfully,,,Passed
