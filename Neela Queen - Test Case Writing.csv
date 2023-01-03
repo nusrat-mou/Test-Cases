@@ -1,0 +1,38 @@
+,Test Case,,,,,,,,,,
+Pass,22,,,,,,,,,,
+Fail,2,,,,,,,,,,
+Not Executed,0,,,,,,,,,,
+Warning,0,,,,,,,,,,
+Out Of Scope,0,,,,,,,,,,
+Total,24,,,,,,,,,,
+#SL,Module,Type of Testing,Features,Reproducing steps,Test Data,Test Cases,Expected Result,Actual Result,Bug Screen shot,Dev Comments,Status
+NQ-001,User Management,Functional Testing,Register,1. Go to URL,https://neelaqueen.com/,Creating a new account,Goes to the URL,Went to the URL,,,Passed
+,,,,2. Click on my account,"clicked on ""my account""",,Opens the Login and Registration module,Opens the Login and Registration module,,,Passed
+,,,,3. Click register,"clicked ""register""",,Redirect to the registration page,Redirect to the registration page,,,Passed
+,,,,4. Enter full name,Nusrat Jahan Mou,,Takes the name,Took the name,,,Passed
+,,,,5. Enter contact number,1763516486,,Takes the contact name successfully,Takes the contact name successfully,,,Passed
+,,,,6. Enter email address,nus.mou.106@gmail.com,,Valid email address,Valid email address,,,Passed
+,,,,7. Enter password,123456,,Please use a strong password,No error shown,,,Failed
+,,,,8. Enter confirm password,123456,,Password matched,Password matched,,,Passed
+,,,,9. Click on register,clicked on register button,,Redirect to login page,Redirect to login page,,,Passed
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+NQ-002,User Management,Functional Testing,Login,1. Go to URL,https://neelaqueen.com/,Logging in to an existing account,Goes to the URL,Went to the URL,,,Passed
+,,,,2. Click on my account,clicked,,Opens the Login and Registration module,Opens the Login and Registration module,,,Passed
+,,,,3. Click login,clicked,,Redirect to the login page,Redirect to the login page,,,Passed
+,,,,4. Enter username,nusrat,,Takes the username ,Took the username as it is valid and already exists,,,Passed
+,,,,5. Enter password,2222,,Incorrect password,Incorrect password,,,Passed
+,,,,6. Click on the login button,clicked,,Registration failed,Registration failed,,,Passed
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+NQ-003,User Management,Functional Testing,Register,1. Go to the URL,https://neelaqueen.com/,Creating an account with an existing email and phone,Goes to the URL,Went to the URL,,,Passed
+,,,,2. Click on my account,"clicked on ""my account""",,Opens the Login and Registration module,Opens the Login and Registration module,,,Passed
+,,,,3. Click register ,"clicked ""register""",,Redirect to the registration page ,Redirect to the registration page,,,Passed
+,,,,4. Enter full name,Nusrat Jahan,,Takes the name,Took the name,,,Passed
+,,,,5. Enter contact number,1763516486,,This phone number already exists,This phone number already exists,,,Passed
+,,,,6. Enter email address,nus.mou.106@gmail.com,,This email is already taken. Please try again,This email is already taken. Please try again,,,Passed
+,,,,7. Enter password,123456,,Please use a strong password,Password taken,,,Failed
+,,,,8. Enter confirm password,123456,,Password matched,Password matched,,,Passed
+,,,,9. Click on register,clicked,,Cannot register ,Cannot register,,,Passed

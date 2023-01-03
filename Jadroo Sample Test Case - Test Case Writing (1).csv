@@ -1,0 +1,37 @@
+,Test Case,,,,,,,,,,
+Pass,17,,,,,,,,,,
+Fail,3,,,,,,,,,,
+Not executed,0,,,,,,,,,,
+Warning,2,,,,,,,,,,
+Out of Scope,0,,,,,,,,,,
+Total,22,,,,,,,,,,
+#SL No,Module,Types of Testing,Features,Reproducing Steps,Test Data,Test Cases,Expected Result,Actual Result,Bug Screen Shot,Dev Comments,Status
+TC-001,User Management,Functional Testing,Register,1. Go to the URL,https://www.jadroo.com/,Creating a new account,Goes to the URL successfully,Went to the URL successfully,,,Passed
+,,,,2. Click on register ,Register button clicked,,Goes to the Registration Page,Goes to the login page,,,Warning
+,,,,3. Click on sign up,Sign up button clicked,,Goes to the sign up page,Went to the sign up page,,,Passed
+,,,,4. Enter Username,Nusrat Jahan Mou,,Takes the name successfully,Took the name successfully,,,Passed
+,,,,5. Enter Email,nus.mou.106@gmail.com,,Valid email address,Valid email address,,,Passed
+,,,,6. Enter Mobile No,1763516486,,Valid phone number,Valid phone number,,,Passed
+,,,,7. Enter Password,123456,,Please enter a strong password,Took the password successfully,,,Failed
+,,,,8. Agree to terms and conditions,Checked,,Checked successfully,Checked successfully,,,Passed
+,,,,9. Click on register button,Clicked,,Goes to the home page,Took to the home page,,,Passed
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+TC-002,User Management,Functional Testing,Login,1. Go to the URL,https://www.jadroo.com/,Logging in to the existing account,Goes to the URL successfully,Went to the URL successfully,,,Passed
+,,,,2. Click on the login button,Login Button Clicked,,Goes to the login page,Went to the login page,,,Passed
+,,,,3. Enter phone number or email,nus.mou.106@gmail.com,,Takes the email successfully,Took the email successfully,,,Passed
+,,,,4. Enter password,22222222,,Password is incorrect,Username and password is incorrect,,,Passed
+,,,,,,,,,,,
+,,,,,,,,,,,
+,,,,,,,,,,,
+TC-003,User Management,Functional Testing,Register,1. Go to the URL,https://www.jadroo.com/,Creating a new account with an existing account,Goes to the URL successfully,Went to the URL successfully,,,Passed
+,,,,2. Click on register,Register button clicked,,Goes to the registration page,Goes to the login page,,,Warning
+,,,,3. Click on sign up,Sign up button clicked,,Goes to the sign up page,Went to the sign up page,,,Passed
+,,,,4. Enter username,Nusrat Jahan,,This username already taken,No error shown,,,Failed
+,,,,5. Enter email,nus.mou.106@gmail.com,,This email is already taken,This email is already taken,,,Passed
+,,,,6. Enter mobile no,1763516486,,This phone number is already taken,This phone number is already taken,,,Passed
+,,,,7. Enter password,123456,,This password is not strong. Please provide a strong password,No error shown,,,Failed
+,,,,8. Agree  to terms and condition,Checked,,Checked successfully,Checked successfully,,,Passed
+,,,,9. Click on register button,Clicked,,Not able to register. ,Not able to register ,,,Passed

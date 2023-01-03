@@ -1,0 +1,25 @@
+,Test Case,,,,,,,,,,
+Pass,13,,,,,,,,,,
+Fail,2,,,,,,,,,,
+Not Executed,0,,,,,,,,,,
+Warning,0,,,,,,,,,,
+Out Of Scope,0,,,,,,,,,,
+Total,15,,,,,,,,,,
+#SL no,Module,Type of Testing,Features,Reproducing Steps,Test Data,Test Cases,Expected Result,Actual Result,Bug Screen Shot,Dev comments (not for QA),Status
+BS-001,User Management,Functional Testing,Register,1. Go to URL,https://bionstyle.com/,Creating a new account,Goes to the URL ,Went to the URL,,,Passed
+,,,,"2. Click on ""my account""",clicked,,Opens the login and registration module,Opened the login and registration module,,,Passed
+,,,,3. Click on register,clicked ,,Redirect to the registration page,Redirected to the registration page,,,Passed
+,,,,4. Enter full name,Nusrat Jahan,,Takes the name sucessfully,Took the name successfully,,,Passed
+,,,,5. Enter phone number,1763516486,,Valid phone number,Valid phone number,,,Passed
+,,,,6. Enter email address,nus.mou.106@gmail.com,,Valid email address,Valid email address,,,Passed
+,,,,7. Enter password,123456,,Please use a strong password,Password taken. No error,,,Failed
+,,,,8. Enter confirm password,123456,,Password matched,Password matched,,,Passed
+,,,,"9. Click on ""create account""",clicked,,Registration successful. Redirects to the login page,Registration successful. Redirects to the login page,,,Passed
+,,,,,,,,,,,
+,,,,,,,,,,,
+BS-002,User Management,Functional Testing,Login,1. Go to the URL,https://bionstyle.com/,Loggimg in,Goes to the URL,Went to the URL,,,Passed
+,,,,"2. Click on ""my account""",clicked,,Opens the login and registration module,Opened the login and registration module,,,Passed
+,,,,3. Click on login,clicked,,Redirect to the login page,Redirect to the login page,,,Passed
+,,,,4. Enter username,nus.mou.106@gmail.com,,Takes the username ,Took the username,,,Passed
+,,,,5. Enter password,123456,,Weak password. Please use a strong password,Password taken. No error,,,Failed
+,,,,6. Click login,clicked,,Redirect to the home page,Redirect to the home page,,,Passed
