@@ -4,9 +4,9 @@
 
 **This repository includes**
 
-*Test Case Writings
-*Test Report
-*Test Metrics
-*Bug Reports
-*Mind Mapping
+* Test Case Writings
+* Test Report
+* Test Metrics
+* Bug Reports
+* Mind Mapping
 
